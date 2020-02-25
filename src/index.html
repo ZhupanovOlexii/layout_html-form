@@ -17,7 +17,7 @@
     <label class="name" for="name">Name:</label>
     <input type="text" id="name" name="name" autocomplete="off"
            minlength="2" maxlength="12" size="18"><br>
-    <label class="years" for="years">How old are You?:</label>
+    <label class="years" for="years">How old are You?</label>
     <input type="number" id="years" name="years" min="12" max="100"
            value="12"><br>
     <label class="birth" for="birth">Full date of birth: </label>
@@ -33,11 +33,11 @@
   <input type="email" name="email" id="email_input" placeholder="email@example.com"><br>
   <label class="password" for="pass">Password:</label>
   <input type="password" id="pass" name="password"
-         minlength="8" required>
-  </fieldset><br>
+         minlength="8" required><br>
+  </fieldset><br><br>
   <fieldset class="fact">
     <legend >An interesting fact about you!</legend>
-    <label class="cats">Do you love cats
+    <label class="cats">Do you love cats?
     <input type="radio" id="Yes" name="cats" value="Yes"
     checked>
     <label for="Yes">Yes</label>
@@ -45,33 +45,33 @@
            checked>
     <label for="No">No</label>
     </label><br>
-    <label class="color" for="color">What is your favorite color</label>
+    <label class="color" for="color">What is your favorite color?</label>
     <input type="color" id="color" name="color"
-           value="black"> <br><br>
-    <label class="bed-time" for="appt">What time do you go to bed:</label>
-    <input type="time" id="appt" name="appt"> <br>
-    <label class="car" for="car-select">What are you favorite brand of car:</label>
+           value="black"><br>
+    <label class="bed-time" for="appt">What time do you go to bed?</label>
+    <input type="time" id="appt" name="appt"><br>
+    <label class="car" for="car-select">What are your favorite brand of cars?</label>
     <select name="car" id="car-select" multiple>
     <option value="BMW">BMW</option>
     <option value="Audi">Audi</option>
     <option value="Lada">Lada</option>
-    </select> <br>
-    <label class="rate-work" for="rate">How do you rate our work</label>
+    </select><br>
+    <label class="rate-work" for="rate">How do you rate our work?</label>
     <input type="range" id="rate" name="rate"
-           min="0" max="10"> <br>
-    </fieldset>
+           min="0" max="10" value="0"><br>
+    </fieldset><br>
     <fieldset>
       <legend class="additional-info">Additional info</legend>
     <label class="comments" for="comments">Comments:</label>
     <textarea id="comments" name="comments"          >
-    </textarea> <br>
+    </textarea><br>
     <label class="recommend" for="recommend">Would you recommend us?</label>
       <select name="recommend" id="recommend">
       <option value="yes">Yes</option>
-      <option value="no">No</option>
+      <option value="no">No</option><br>
       </select>
-      </fieldset class="buttom">
+      </fieldset><br>
       <input type="submit" value="Submit" onsubmit="onSubmit()">
-  <script type="text/javascript" src="./main.js"></script>
+        <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>

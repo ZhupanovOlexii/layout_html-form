@@ -1,26 +1,33 @@
 
-.registration,
-.info,
-.fact,
-.buttom,
-.additional-info {
-  margin-bottom: 0;
+.registration {
+  margin-bottom: 20px;
 }
 
-.surname,
-.name,
-.years,
-.birth,
-.accept,
-.email,
-.password,
-.cats,
-.color,
-.bed-time,
-.car,
-.rate-work,
-.comments,
-.recommend {
+.additional-info {
+  margin-top: 10px;
+
+}
+
+.fact {
+  margin-top: -10px;
+}
+
+#surname,
+#cats,
+#color,
+#bed-time {
   margin-bottom: 10px;
-  line-height: 30px;
+
+}
+
+#email,
+#car-select,
+#color,
+#years,
+#accept,
+#birth,
+#rate,
+#pass,
+#recommend {
+  margin-top: 10px;
 }
