@@ -1,0 +1,26 @@
+
+.registration,
+.info,
+.fact,
+.buttom,
+.additional-info {
+  margin-bottom: 0;
+}
+
+.surname,
+.name,
+.years,
+.birth,
+.accept,
+.email,
+.password,
+.cats,
+.color,
+.bed-time,
+.car,
+.rate-work,
+.comments,
+.recommend {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
